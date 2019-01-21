@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <link rel="icon" href="img/favicon.ico">
+
+  <title>Frontend Test</title>
+
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,600" rel="stylesheet">
+  <!-- Bootstrap core CSS -->
+  <link href="assets/css/bootstrap.css" rel="stylesheet">
+  <link href="assets/css/main.css" rel="stylesheet">
+</head>
+<!-- NAVBAR
+================================================== -->
+
+<body>
+  <!-- Carousel
+    ================================================== -->
+  <div id="myCarousel sitebody" class="carousel slide" data-ride="carousel">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+      <li data-target="#myCarousel" data-slide-to="2"></li>
+    </ol>
+
+    <div class="jumbotron text-center">
+      <div class="row topnav">
+        <div class="col-md-4">Logo here</div>
+        <div class="col-md-4">menu here</div>
+        <div class="col-md-4">action button</div>
+      </div>
+
+      <div class="header-main">
+        <h1>Hello, world!</h1>
+        <p>...</p>
+        <p><a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a></p>
+      </div>
+    </div>
+
+
+    <div class="container marketing" id="wrap">
+      <div class="main-body">
+        <div class="row">
+          <div class="col-md-8">
+            <div class="row">
+              <div class="col-md-6">
+                <div class="placehold">
+                  <img class="image image-cover" src="https://picsum.photos/600/200" />
+                  <button class="placehold-btn">News</button>
+                  <div class="info">
+                    How subscription business with a customer works using analytics
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-6">
+                <div class="placehold">
+                  <img class="image image-cover" src="https://picsum.photos/600/200" />
+                  <button class="placehold-btn">News</button>
+                  <div class="info">
+                    How subscription business with a customer works using analytics
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col-md-6">
+                <div class="placehold">
+                  <img class="image image-cover" src="https://picsum.photos/600/200" />
+                  <button class="placehold-btn">News</button>
+                  <div class="info">
+                    How subscription business with a customer works using analytics
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-6">
+                <div class="placehold">
+                  <img class="image image-cover" src="https://picsum.photos/600/200" />
+                  <button class="placehold-btn">News</button>
+                  <div class="info">
+                    How subscription business with a customer works using analytics
+                  </div>
+                </div>
+              </div>
+            </div>
+
+
+            <div class="row">
+              <div class="col-md-6">
+                <div class="placehold">
+                  <img class="image image-cover" src="https://picsum.photos/600/200" />
+                  <button class="placehold-btn">News</button>
+                  <div class="info">
+                    How subscription business with a customer works using analytics
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-6">
+                <div class="placehold">
+                  <img class="image image-cover" src="https://picsum.photos/600/200" />
+                  <div class="info">
+                    How subscription business with a customer works using analytics
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+          <div class="col-md-4 side-bar" id="sidebar">
+            <img class="img-square featured" src="http://placehold.it/300x300" alt="Generic placeholder image" width="300px"
+              height="700px">
+          </div>
+
+        </div>
+      </div>
+
+
+      <!-- FOOTER -->
+      <footer style="margin-top: 3rem">
+        <p class="pull-right"><a href="#">Back to top</a></p>
+        <p>&copy; 2019. Test. &middot; <a href="#">Privacy</a> &middot;</p>
+      </footer>
+
+    </div>
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="assets/js/bootstrap.js"></script>
+    <script>
+      $(function () {
+        var sidebar = $("#sidebar");
+        $(window).scroll(function () {
+          if (sidebar.scrollTop() - $(window).scrollTop() < -341) {
+            console.log(sidebar.scrollTop() - $(window).scrollTop());
+            sidebar.addClass("fix-search");
+          } else {
+            sidebar.removeClass("fix-search");
+          }
+        });
+
+      })
+
+    </script>
+</body>
+
+</html>
